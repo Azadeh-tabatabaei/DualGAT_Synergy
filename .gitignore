@@ -1,0 +1,19 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+files.txt
+# large or intermediate files: archive on Zenodo instead
+data/drugcomb_full_v1.5.csv
+checkpoints/
+checkpoints_retrained/
+cross_dataset/
+results_reproduced/
+diagnostic_tiny_overfit/
+# few-shot intermediates (keep only the top-level summary CSV/JSON files)
+fewshot_extension_v1/*/
+fewshot_head_finetune_v1/*/
+*.npz
+*.pt
+*.pth
+*.zip
+!data/drug_to_chemberta.pt

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DualGATSynergy"
+type: software
+version: "1.0"
+date-released: "2026-10-29"
+license: MIT
+authors:
+  - family-names: "<TODO>"
+    given-names: "<TODO>"
+repository-code: "https://github.com/<TODO: account>/DualGATSynergy"
+doi: "10.5281/zenodo.<TODO>"
+abstract: "Weight-shared graph attention with inter-molecular cross-attention for drug-synergy prediction under a cold-drug protocol."
